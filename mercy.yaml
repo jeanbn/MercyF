@@ -35,19 +35,19 @@ tasks:
 
     # Move Resources
     - action: move_path
-      src: ./tmp/mercy-framework-pre/resources
-      dest: ./resources
+      src: ./tmp/mercy-framework-pre2/resources
+      dest: ./resources      
     # Move CFG Folder
     - action: move_path
-      src: ./tmp/mercy-framework-pre/cfg/resources.cfg
+      src: ./tmp/mercy-framework-pre2/cfg/resources.cfg
       dest: ./resources.cfg
     # Move Voice Server
     - action: move_path
-      src: ./tmp/mercy-framework-pre/Mercy-VoiceServer
+      src: ./tmp/mercy-framework-pre2/Mercy-VoiceServer
       dest: ./Mercy-VoiceServer/
     # Move Casino Wheel
     - action: move_path
-      src: ./tmp/mercy-framework-pre/Mercy-CasinoWheelUI
+      src: ./tmp/mercy-framework-pre2/Mercy-CasinoWheelUI
       dest: ./Mercy-CasinoWheelUI/
     # Remove Temp Files
     - action: remove_path
